@@ -2,6 +2,7 @@
 
 /**
  * News Manager Polish language file by Blazej Strazak
+ update by Reptile [2025/03/02] 
  */
 
 
@@ -14,12 +15,12 @@ $i18n = array(
 "ERROR_ENV"           =>  "Wystąpił błąd z dostępem do posta i/lub pliku konfiguracyjnego. <em>CHMOD 777</em> katalog /data, /backups oraz jego podkatalogi i spróbuj ponownie.",
 "ERROR_SAVE"          =>  "<b>Error:</b> Nie można zapisać zmiany. <em>CHMOD 777</em> katalog /data, /backups oraz jego podkatalogi i spróbuj ponownie.",
 "ERROR_DELETE"        =>  "<b>Error:</b> Nie można skasować posta. <em>CHMOD 777</em> katalog /data, /backups oraz jego podkatalogi i spróbuj ponownie.",
-"ERROR_RESTORE"       =>  "<b>Error:</b> Unable to restore the post. <em>CHMOD 777</em> the folders /data, /backups and their sub-folders and retry.",
+"ERROR_RESTORE"       =>  "<b>Error:</b> Nie można przywrócić posta. <em>CHMOD 777</em> katalog /data, /backups oraz jego podkatalogi i spróbuj ponownie.",
 
 # success messages
 "SUCCESS_SAVE"        =>  "Twoje zmiany zostały zapisane.",
 "SUCCESS_DELETE"      =>  "Post został skasowany.",
-"SUCCESS_RESTORE"     =>  "The post has been restored.",
+"SUCCESS_RESTORE"     =>  "Post został przywrócony.",
 
 # other messages
 "UPDATE_HTACCESS"     =>  "<b>Uwaga:</b> Prawdopodobnie musisz zaktualizować plik <a href=\"%s\">.htaccess</a>!",
@@ -41,8 +42,8 @@ $i18n = array(
 "NM_SETTINGS"         =>  "Ustawienia News Manager'a",
 "DOCUMENTATION"       =>  "Więcej informacji na temat ustawień znajdziesz na stronie z <a href=\"%s\" target=\"_blank\">dokumentacją</a>.",
 "PAGE_URL"            =>  "Strona do wyświetlania postów",
-"NO_PAGE_SELECTED"    =>  "No page selected",
-"LANGUAGE"            =>  "Language used on News Page",
+"NO_PAGE_SELECTED"    =>  "Nie wybrano strony",
+"LANGUAGE"            =>  "Wyświetlany język dla strony (News Page)",
 "SHOW_POSTS_AS"       =>  "Posty na stronie z aktualnościami są wyświetlane jako",
 "FULL_TEXT"           =>  "Pełna treść",
 "EXCERPT"             =>  "Zajawka",
@@ -51,39 +52,39 @@ $i18n = array(
 "EXCERPT_LENGTH"      =>  "Długość zajawki (w znakach)",
 "POSTS_PER_PAGE"      =>  "Ilość postów na stronie z aktualnościami",
 "RECENT_POSTS"        =>  "Ilość ostatnich postów (w sidebarze)",
-"ENABLE_ARCHIVES"     =>  "Enable archives",
-"BY_MONTH"            =>  "By month",
-"BY_YEAR"             =>  "By year",
-"READ_MORE_LINK"      =>  "Add \"read more\" link to excerpts",
-"ALWAYS"              =>  "Always",
-"NOT_SINGLE"          =>  "Yes, except in single post view",
-"GO_BACK_LINK"        =>  "\"Go back\" link in single post view",
-"TITLE_LINK"          =>  "Post Title links to Post",
-"BROWSER_BACK"        =>  "Previously visited page",
-"MAIN_NEWS_PAGE"      =>  "Main News Page",
-"ENABLE_IMAGES"       =>  "Enable post images",
-"IMAGE_LINKS"         =>  "Link images to posts",
-"IMAGE_WIDTH"         =>  "Post image width (pixels)",
-"IMAGE_HEIGHT"        =>  "Post image height (pixels)",
-"FULL"                =>  "full",
-"IMAGE_CROP"          =>  "Crop post images to fit width/height ratio",
-"IMAGE_ALT"           =>  "Insert post title in post image <em>alt</em> attribute",
-"CUSTOM_SETTINGS"     =>  "Custom settings",
+"ENABLE_ARCHIVES"     =>  "Włączone archiwum",
+"BY_MONTH"            =>  "Miesięcznie",
+"BY_YEAR"             =>  "Rocznie",
+"READ_MORE_LINK"      =>  "Dodaj \"czytaj więcej\" do zajawek",
+"ALWAYS"              =>  "Zawsze",
+"NOT_SINGLE"          =>  "Tak, tylko nie w pojedynczym postcie",
+"GO_BACK_LINK"        =>  "\"Wróć do poprzedniej strony\" odnośnik w pojedynczym postcie",
+"TITLE_LINK"          =>  "Tytuł postu jest przekierowaniem do postu",
+"BROWSER_BACK"        =>  "Poprzednio odwiedzona strona",
+"MAIN_NEWS_PAGE"      =>  "Główna strona postów",
+"ENABLE_IMAGES"       =>  "Włącz obraz dla posta",
+"IMAGE_LINKS"         =>  "Obraz przekierowuje do posta",
+"IMAGE_WIDTH"         =>  "Szerokość obrazu (pixels)",
+"IMAGE_HEIGHT"        =>  "Wysokość obrazu (pixels)",
+"FULL"                =>  "pełne",
+"IMAGE_CROP"          =>  "Przytnij obraz, aby dostosować szerokość/wysokość",
+"IMAGE_ALT"           =>  "Wstaw tytuł posta do atrybutu <em>alt</em> obrazu",
+"CUSTOM_SETTINGS"     =>  "Ustawienia własne",
 
 # edit post
 "POST_OPTIONS"        =>  "Opcje posta",
 "POST_SLUG"           =>  "Slug/URL",
 "POST_TAGS"           =>  "Tagi (oddzielone przecinkami)",
-"POST_DATE"           =>  "Publish date (<i>yyyy-mm-dd</i>)",
-"POST_TIME"           =>  "Publish time (<i>hh:mm</i>)",
+"POST_DATE"           =>  "Data publikacji (<i>yyyy-mm-dd</i>)",
+"POST_TIME"           =>  "Godzina publikacji (<i>hh:mm</i>)",
 "POST_PRIVATE"        =>  "Post zaznaczony jako prywatny",
-"POST_IMAGE"          =>  "Image",
+"POST_IMAGE"          =>  "Obraz",
 "LAST_SAVED"          =>  "Ostatnio zapisane",
 
 # validation
 "FIELD_IS_REQUIRED"   => "To pole jest wymagane",
-"ENTER_VALID_DATE"    => "Please enter a valid date / Leave blank for current date",
-"ENTER_VALID_TIME"    => "Please enter a valid time / Leave blank for current time",
+"ENTER_VALID_DATE"    => "Podaj poprawną datę / Zostaw puste dla bieżącej daty",
+"ENTER_VALID_TIME"    => "Podaj poprawny czas / Zostaw puste dla bieżącego czasu",
 "ENTER_VALUE_MIN"     => "Proszę o podanie wartości większej bądź równej %d",
 
 # date picker - first day of week (0=Sunday, 1=Monday, ... 6=Saturday)
@@ -113,8 +114,8 @@ $i18n = array(
 "SEARCH"              =>  "Szukaj",
 "GO_BACK"             =>  "&lt;&lt; Wróć do poprzedniej strony",
 "ELLIPSIS"            =>  " [...] ",
-"READ_MORE"           =>  "Read more",
-"AUTHOR"              =>  "Author:",
+"READ_MORE"           =>  "Czytaj więcej",
+"AUTHOR"              =>  "Autor:",
 "PREV_TEXT"           =>  "&lt;",
 "PREV_TITLE"          =>  "Poprzednia strona",
 "NEXT_TEXT"           =>  "&gt;",
